@@ -1,0 +1,237 @@
+
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/circles-light.png")
+}
+
+
+#header {
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #777777;
+    position: static;
+    
+    
+    
+}
+a {
+    text-decoration: none;
+    color: #777777;
+    
+}
+
+#name {
+    display: inline-block;
+    background: #4aaaa5;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    
+
+
+}
+
+#menu {
+    display: inline-block;
+    background: #ffffff;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  
+}
+
+#container {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 1px solid #777777;
+}
+
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+
+#bio-image {
+    width: 180px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    
+}
+
+footer {
+    width: 100%;
+    background: #666666;
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    position: flex;
+    bottom: 0;
+    font-size: 10px;   
+}
+
+
+
+
+
+input[type="text"] {
+    display: block;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    width: 900px;
+}
+
+input[type="email"] {
+    display: block;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    width: 900px;
+}
+
+textarea {
+    display: block;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+input[type="submit"] {
+    background: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin: 25px;
+    border: none;
+    padding: 10px;
+}
+
+
+
+#pictures {
+    width: 960px;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    padding: 10px;
+    border: 1px solid #777777;
+
+}
+
+#Tomasa {
+    width: 150px;
+    height: auto;
+}
+
+#Tobias {
+   height:184px;
+   width: auto;
+   margin-left: 50px;
+}
+
+#Turro {
+    height:184px;
+    width: auto;
+    margin-left: 50px;
+}
+
+#Otis {
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
+}
+
+#Estela {
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #header {
+        width: 100%;
+        padding: 20px;
+    }
+
+    main {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    footer {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    #header {
+        width: 100%;
+        padding: 20px;
+    }
+
+    main {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    footer {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 168px) {
+    #header {
+        width: 100%;
+        padding: 20px;
+    }
+
+    main {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    footer {
+        width: 100%;
+        padding: 20px;
+    }
+}
